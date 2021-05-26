@@ -1,0 +1,27 @@
+<a class="logout" href="inkludere/logout.ink.php">
+     <button type="submit" class="logoutHeaderKnap" name="logout-submit" action="inkludere/logout.ink.php">Logout</button>
+     </a>
+     <a class="profil" href="profil.php">
+       <button type="submit" class="profilHeaderKnap">Min profil</button>
+       </a>';
+
+
+  '<a class="login" href="loginSite.php">
+       <button type="button" class="loginHeaderKnap" name="login-submit" action="loginSite.php">Login</button>
+     </a>';
+
+ }
+?>
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+
+  </body>
+</html>
