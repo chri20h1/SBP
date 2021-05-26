@@ -12,10 +12,10 @@
     <header>
      <nav>
        <ul>
-         <li><img src="img/sbLogo.png" alt="logo" width="75" height="75" href="index.php"></li>
-         <li><a class="spilNav" href="index.php">Spil</a></li>
-         <li><a class="leaderboardNav" href="leaderboard.php">Leaderboard</a></li>
-         <li><a class="omOsNav" href="#">Om os</a></li>
+         <li><img src="img/sbLogo.png" alt="logo" width="100" height="75" href="index.php"></li>
+         <li><a class="spilNav" href="index.php">Feed</a></li>
+         <li><a class="leaderboardNav" href="leaderboard.php">Aftaler</a></li>
+         <li><a class="omOsNav" href="#">Profil</a></li>
        </ul>
        <?php
         if (isset($_SESSION['userId'])) {
