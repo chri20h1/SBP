@@ -15,6 +15,7 @@ nav {
   width: 100%;
   height: 75px;
   background-color: #fff;
+  border-bottom: 2px solid black;
 }
 
 ul li {
@@ -169,11 +170,12 @@ hr{
 
 .section-default {
   margin-left: 10%;
-  margin-top: 15px;
+  margin-top: 10px;
   height: 20%;
   width: 80%;
   background-color: #fff;
   text-align: center;
+  padding-top: 1000px;
 }
 
 
