@@ -15,8 +15,8 @@
          <a href="forside.php">
          <li><img src="img/sbLogo.png" alt="logo" width="103" height="75"><a/></li>
          <li><a class="spilNav" href="index.php">Feed</a></li>
-         <li><a class="leaderboardNav" href="leaderboard.php">Aftaler</a></li>
-         <li><a class="omOsNav" href="#">Grupper</a></li>
+         <li><a class="leaderboardNav" href="aftaler.php">Aftaler</a></li>
+         <li><a class="omOsNav" href="chat.php">Chat</a></li>
        </ul>
        <?php
         if (isset($_SESSION['userId'])) {
