@@ -4,8 +4,7 @@
 
    <main>
      <div class="wrapper-main">
-       <section class="section-default">
-    <p>Forside</p>
+    <img class="forside" src="img/forsidePic.png" alt="logo" width="100%" height="100%">
        </section>
       </div>
      </main>
