@@ -12,7 +12,8 @@
     <header>
      <nav>
        <ul>
-         <li><img src="img/sbLogo.png" alt="logo" width="100" height="75" href="index.php"></li>
+         <a href="index.php">
+         <li><img src="img/sbLogo.png" alt="logo" width="100" height="75"><a/></li>
          <li><a class="spilNav" href="index.php">Feed</a></li>
          <li><a class="leaderboardNav" href="leaderboard.php">Aftaler</a></li>
          <li><a class="omOsNav" href="#">Profil</a></li>
