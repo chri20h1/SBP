@@ -1,5 +1,5 @@
 <?php
-  require "header.php";
+  include_once "header.php";
 ?>
 
    <main>
@@ -40,5 +40,5 @@ function datoOptionFunction() {
       </div>
      </main>
 <?php
-   require "footer.php";
+   include_once "footer.php";
 ?>

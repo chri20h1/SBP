@@ -1,12 +1,12 @@
 <?php
-  require "header.php";
+  include_once "header.php";
 ?>
 
    <main>
      <div class="wrapper-main">
        <section class="section-default">
          <?php
-          if (isset($_SESSION['userId'])) {
+          if (isset($_SESSION['useruid'])) {
             echo '<p class="login-status">Du er logget på!!!!</p>';
          }
           else {
@@ -17,5 +17,5 @@
       </div>
      </main>
 <?php
-   require "footer.php";
+   include_once "footer.php";
 ?>

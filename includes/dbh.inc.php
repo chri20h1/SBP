@@ -3,10 +3,10 @@
 $servername = "localhost";
 $dBUsername = "root";
 $dBPassword = "";
-$dBName = "SBPDatabase";
+$dBName = "socialbeachdatabase";
 
 $conn = mysqli_connect($servername, $dBUsername, $dBPassword, $dBName);
 
 if (!$conn) {
-  die("Forbindelse tabt: ".mysqli_connect_error());
+	die("Connection failed: ".mysqli_connect_error());
 }

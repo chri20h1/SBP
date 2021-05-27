@@ -1,14 +1,22 @@
 <?php
-  require "header.php";
+  include_once "header.php";
 ?>
 
    <main>
      <div class="wrapper-main">
        <section class="section-default">
-    <p>TEST </p>
+ <?php
+ if(!$_SESSION['useruid']){
+
+ header('location:login.php?error=login please');
+}else {
+ echo "hej";
+}
+  ?>
+
        </section>
       </div>
      </main>
 <?php
-   require "footer.php";
+   include_once "footer.php";
 ?>
