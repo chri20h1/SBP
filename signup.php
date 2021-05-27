@@ -5,7 +5,7 @@
       <h1>Opret dig her</h1>
       <form action="includes/signup.inc.php" method="post">
         <input type="text" class="input-box" name="name" placeholder="Dit fulde navn">
-        <input type="text" class="input-box" name="email" placeholder="Din email">
+        <input type="email" class="input-box" name="email" placeholder="Din email">
         <input type="text" class="input-box" name="uid" placeholder="Dit username">
         <input type="password" class="input-box" name="pwd" placeholder="Dit password">
         <input type="password" class="input-box" name="pwdrepeat" placeholder="Gentag password">
