@@ -14,9 +14,10 @@
       $resultCheck = mysqli_num_rows($result);
 
       if ($resultCheck > 0) {
-         echo "akdfkjasddassadd";
+         while ($row = mysqli_fetch_assoc($result)){
+           echo $row['usersName'];
          }
-
+}
 else {
 header("location: ../signup.php?error=seserror");
 }
