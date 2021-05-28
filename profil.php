@@ -6,11 +6,12 @@
      <div class="wrapper-main">
        <section class="section-default">
  <?php
- if(!$_SESSION['useruid']){
+ if($_SESSION['useruid']){
 
- header('location:login.php?error=login please');
+
+
 }else {
- echo "hej";
+header("location: ../signup.php?error=seserror");
 }
   ?>
 
