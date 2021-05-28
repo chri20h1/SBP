@@ -130,3 +130,5 @@ function loginUser($conn, $username, $pwd) {
 		exit();
 	}
 }
+
+function getUsersData($)
