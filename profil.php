@@ -7,9 +7,9 @@
      <div class="wrapper-main">
        <section class="section-default">
  <?php
- if($_SESSION['useruid']){
+ if($_SESSION['userid']){
 
-   $sql = "SELECT * FROM users";
+      $sql = "SELECT * FROM users WHERE usersId='1';";
       $result = mysqli_query($conn, $sql);
       $resultCheck = mysqli_num_rows($result);
 
@@ -19,7 +19,7 @@
          }
 }
 else {
-header("location: ../signup.php?error=seserror");
+echo "fejl";
 }
 }
   ?>
