@@ -6,6 +6,9 @@
    <main>
      <div class="wrapper-main">
        <section class="section-default">
+
+
+
  <?php
  if($_SESSION['userid']){
 
@@ -18,16 +21,11 @@
 
       if ($resultCheck > 0) {
          while ($row = mysqli_fetch_assoc($result)){
-          echo "
-         <td>Navn: {$row['usersName']}</td><br>
-         <td>Username: {$row['usersUid']}</td><br>
-         <td>Email: {$row['usersEmail']}</td><br>
-         <td>User ID: {$row['usersId']}</td>    </div>";
-
+           echo "<span class='profilInfo'>" . "Navn:.......... " . "<div class='profilInfoFed'>" . "{$row['usersName']}" . "</div><br>" . "Username:... " . "<div class='profilInfoFed'>" . "{$row['usersUid']}" . "</div><br>" . "Email............. " . "<div class='profilInfoFed'>" . "{$row['usersEmail']}" . "</div><br>" . "Users ID:........ " . "<div class='profilInfoFed'>" . "{$row['usersId']}" . "</div><br></span>";
          }
        }
 else {
-    echo "fejl";
+    echo "error";
   }
 }
   ?>
