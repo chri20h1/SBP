@@ -34,25 +34,25 @@
     // Error messages
     if (isset($_GET["error"])) {
       if ($_GET["error"] == "emptyinput") {
-        echo "<p>Fill in all fields!</p>";
+        echo "<div class='errorM'>Fyld alle felter ud!</div>";
       }
       else if ($_GET["error"] == "invaliduid") {
-        echo "<p>Choose a proper username!</p>";
+        echo "<div class='errorM'>Vælg et ordentligt brugernavn!</div>";
       }
       else if ($_GET["error"] == "invalidemail") {
-        echo "<p>Choose a proper email!</p>";
+        echo "<div class='errorM'>Vælg en ordentligt email!</div>";
       }
       else if ($_GET["error"] == "passwordsdontmatch") {
-        echo "<p>Passwords doesn't match!</p>";
+        echo "<div class='errorM'>Adgangskoder stemmer ikke overens!</div>";
       }
       else if ($_GET["error"] == "stmtfailed") {
-        echo "<p>Something went wrong!</p>";
+        echo "<div class='errorM'>Noget gik galt!</div>";
       }
       else if ($_GET["error"] == "usernametaken") {
-        echo "<p>Username already taken!</p>";
+        echo "<div class='errorM'>Brugernavn allerede i brug!</div>";
       }
       else if ($_GET["error"] == "none") {
-        echo "<p>You have signed up!</p>";
+        echo "<p>Du er nu oprettet!</p>";
       }
     }
   ?>
