@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+td {
+color: red;
+}
+
+
 body{
   background-color: #eee;
   font-family: sans-serif;
