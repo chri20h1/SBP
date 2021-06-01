@@ -52,7 +52,7 @@
         echo "<div class='errorM'>Brugernavn allerede i brug!</div>";
       }
       else if ($_GET["error"] == "none") {
-        echo "<p>Du er nu oprettet!</p>";
+        echo "<div class='errorM'>Du er nu oprettet!</div></p>";
       }
     }
   ?>
